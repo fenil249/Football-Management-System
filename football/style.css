@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.hed1{
+    width: 100%;
+    height: 10vh;
+}
+
+#ft{
+    text-align: center;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 85% 85%, 0% 100%);
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+#blue{
+    color: #74b9ff;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+.menu a:first-child{
+    border-bottom: 1px solid #74b9ff;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.left{
+    flex-basis: 50%;
+}
+
+.right{
+    max-width: 450px;
+    flex-basis: 50%;
+}
+
+.right h1{
+    font-size: 40px;
+    margin: 25px 80px;
+    color: #74b9ff;
+}
+
+.right h4{
+    font-size: 20px;
+    margin: 10px 55px;
+}
+
+#contact{
+    padding: 30px 0px;
+}
+
+.contact-row{
+    padding: 50px;
+    text-align: center;
+    display: flex;
+}
+
+.contact-first{
+    padding-top: 50px;
+    flex-basis: 50%;
+    max-width: 450px;
+    margin: auto;
+}
+
+.service-info{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-second{
+    padding-top: 50px;
+    flex-basis: 50%;
+}
+
+.contact-third{
+    padding-top: 50px;
+    flex-basis: 50%;
+}
+
+.contact-fourth{
+    padding-top: 50px;
+    flex-basis: 50%;
+}
+
+.fa-address-book{
+    padding: 7px;
+}
+
+.fa-envelope{
+    padding: 7px;
+}
